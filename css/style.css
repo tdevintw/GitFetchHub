@@ -1,0 +1,35 @@
+.repo-div{
+    padding-left: 50px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.repo-div img{
+    max-height: 8rem;
+}
+main{
+    margin-top: 50px;
+}
+.repo-content{
+    margin-left: 30px;
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+}
+.repo-content h2{
+    font-weight: bold;
+    size: 65px;
+}
+.repo-infos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.search form{
+width: 50%;
+}
+.search{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
