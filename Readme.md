@@ -1,6 +1,6 @@
 ### GetHubFetch :<br>
 
-<h1 style="text-align:center;">Description :</h1>
+<h1 style="align:center;">Description :</h1>
    
   in this project i consume an api from api.github.com to build a simple project where at the main page home all the repositories show in order of stars . <br>
   
