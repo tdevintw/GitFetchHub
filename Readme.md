@@ -27,4 +27,4 @@
 3-I develop my js knowledge , with using fetch() method to send the request to the server and also the DOM to manipulate the logic of the code ,and to fill the html container with the right data.<br>
 4-Also , i develop problem solving skill, since i need to find problems or solution of errors or bugs , or to add a feature and the best example is the next button pagination to control either the button will be displayed or not .<br>
   More explaination about the code  is on the comments . <br>
-  **Happy Coding**:star_struck:
+  **Happy Coding** :star_struck:
