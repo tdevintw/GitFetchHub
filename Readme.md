@@ -1,7 +1,7 @@
 ### GetHubFetch :<br>
    **Description :** <br>
   in this project i consume an api from api.github.com to build a simple project where at the main page home all the repositories show in order of stars . <br>
-   **Features:**<br>
+   **Features:** <br>
   * ability to see most popular repos on github based on stars.<br>
   * abilty to search an api by repo name or owner.<br>
   * using pagination to enhance page response speed , each page can contains 30 repo . the page contains also a next button and previous button to control pagination . <br>
