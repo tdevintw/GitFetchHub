@@ -23,4 +23,4 @@
   6- for the search btn i also use the same logic as pagination when i click search i send the input value to the function to take it and reset the apiUrl and finally as expected recallingthe fetchRepositories() again with the new api .<br>
 
   more explaination is on the comments . <br>
-  **Happy Coding**
+  **Happy Coding**:star_struck:
