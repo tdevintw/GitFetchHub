@@ -48,7 +48,6 @@
 
 <div class="search">
 <form>   
-    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div class="relative">
         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -63,7 +62,9 @@
 <main id="main">
 </main>
 <div  id="pag-container" class="pagination text-center">
-<button id="next" class="bg-black hover:bg-Slate-950 text-white font-bold py-2 px-4 rounded">More</button>
+<button id="prev" class="bg-black hover:bg-Slate-950 text-white font-bold py-2 px-4 rounded">Prev</button>
+<button id="next" class="bg-black hover:bg-Slate-950 text-white font-bold py-2 px-4 rounded">Next</button>
+
 </div>
 
 <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">

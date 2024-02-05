@@ -46,6 +46,8 @@ function fetchRepositories() {
                 `;
                 mainContainer.appendChild(repocontainer);
             })};
+
+            prevBtn();
         })
         .catch(error => {
             console.error("Error during API request", error);
@@ -59,13 +61,33 @@ fetchRepositories();
 const loadMoreButton = document.getElementById('next');
 
 loadMoreButton.addEventListener('click', () => {
+
     page++; // Increment page number
-    const newApiUrl = `https://api.github.com/search/repositories?q=stars:>1&sort=stars&order=desc&page=${page}&per_page=${perPage}`;
-    apiUrl = newApiUrl; // Update apiUrl with the new page
+    apiUrl.replace("&page=${page}","")
+    apiUrl = `${apiUrl}&page=${page}`
+    mainContainer.innerHTML = ''; 
     fetchRepositories();
 });
 
+const prev = document.getElementById('prev');
+function prevBtn(){
+    if(page==1){
+        prev.style.display = "none";
+    }
+    else{
+        prev.style.display = "inline-block";
+    }
+}
 
+prev.addEventListener('click', () => {
+   
+    page--; // Increment page number
+    apiUrl.replace("&page=${page}","")
+    apiUrl = `${apiUrl}&page=${page}`
+    mainContainer.innerHTML = ''; 
+    fetchRepositories();
+   
+});
 
 
 function searchRepositories(searchTerm) {
@@ -73,13 +95,13 @@ function searchRepositories(searchTerm) {
     if (searchTerm !== '') {
         page = 1; // Reset page number for new search
         apiUrl = `https://api.github.com/search/repositories?q=${searchTerm}&sort=stars&order=desc&page=${page}&per_page=${perPage}`;
-        mainContainer.innerHTML = ''; // Clear existing results
+        mainContainer.innerHTML = ''; 
         fetchRepositories();
-        
+          
     }else{
         page = 1; // Reset page number for new search
         apiUrl = `https://api.github.com/search/repositories?q=stars:>1&sort=stars&order=desc&page=${page}&per_page=${perPage}`;
-        mainContainer.innerHTML = ''; // Clear existing results
+        mainContainer.innerHTML = ''; 
         fetchRepositories(); 
     }
 }
