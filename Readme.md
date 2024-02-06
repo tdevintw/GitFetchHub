@@ -26,5 +26,22 @@
 2-I also learn about json : what is json and why most if not all APIs are as json data , and how to handle json data using javascript.<br>
 3-I develop my js knowledge , with using fetch() method to send the request to the server and also the DOM to manipulate the logic of the code ,and to fill the html container with the right data.<br>
 4-Also , i develop problem solving skill, since i need to find problems or solution of errors or bugs , or to add a feature and the best example is the next button pagination to control either the button will be displayed or not .<br>
+ <h2> Built With:</h2><br>
+ <div align="left">
+  <img src="https://skillicons.dev/icons?i=html" height="35" alt="html5 logo"  />
+  <img width="3" />
+  <img src="https://skillicons.dev/icons?i=css" height="35" alt="css3 logo"  />
+  <img width="3" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="35" alt="tailwindcss logo"  />
+  <img width="3" />
+  <img src="https://skillicons.dev/icons?i=js" height="35" alt="javascript logo"  />
+  <img width="3" />
+  <img src="https://skillicons.dev/icons?i=vscode" height="35" alt="vscode logo"  />
+  <img width="3" />
+  <img src="https://skillicons.dev/icons?i=bash" height="35" alt="bash logo"  />
+  <img width="3" />
+  <img src="https://skillicons.dev/icons?i=github" height="35" alt="github logo"  />
+</div>
+
   More explaination about the code  is on the comments . <br>
   Happy Coding :star_struck:	
