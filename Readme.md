@@ -1,4 +1,4 @@
-<h1 align:"center"> GetHubFetch: </h1> <br>
+<h1 align:"center"> GitFetchHub: </h1> <br>
 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></img>
 <h2> Description :</h2>
    
