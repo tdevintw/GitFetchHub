@@ -37,7 +37,6 @@ function fetchRepositories() {
         //we use the append to specify where teh created div will placed
         mainContainer.appendChild(repocontainer);
         // we retun a value to exit the code
-         return false;
             } else{
             //if the server returns a data
             repositories.forEach(repo => {
@@ -170,7 +169,7 @@ function searchRepositories(searchTerm) {
 
 function nextBtn(){
     /*create new apiurl to seperate between the actual apiurl and the apiurl used to check next page
-     if i dont sepearte them when i will increase page it will be increased in the origin url and i click at next it will
+     if i dont sepearte them when i will increase page it will be increased in the origin url and when i click at next btn it will
      skip a page */
     let nexApiUrl = apiUrl;
     nextpage = page +1 ;
