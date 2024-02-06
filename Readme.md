@@ -38,10 +38,8 @@
   <img width="3" />
   <img src="https://skillicons.dev/icons?i=vscode" height="35" alt="vscode logo"  />
   <img width="3" />
-  <img src="https://skillicons.dev/icons?i=bash" height="35" alt="bash logo"  />
-  <img width="3" />
   <img src="https://skillicons.dev/icons?i=github" height="35" alt="github logo"  />
 </div>
-
+ <br><br>
   More explaination about the code  is on the comments . <br>
   Happy Coding :star_struck:	
