@@ -1,5 +1,5 @@
 <h1 align="center"> GitFetchHub: </h1> <br>
-<div align="center"><img width=300 src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></img></div>
+<div align="center"><img height=300 src="https://wallpaperaccess.com/full/3415007.jpg"></img></div>
 <h2> Description :</h2>
    
   In this project i consume an api using api.github.com to build a simple project where at the main page (home)  repositories are showed in order of stars . <br>
@@ -18,7 +18,7 @@
   2- Now for the api , i use fetch() method , which is a method in js used to send a request to a server , in hope  that the server will return some useful data. we use also .then() and .catch to establish  all possible cases like  if(!res.ok) (means that the request wasn't accepted by the server)...etc<br>
   3- If the response is accepted by the server we will get a data as a json data which is the acronym of java script object notation , so the data is returned as an object which contains many arrays.<br>
   4- I also use many condition statments to establish cases like repositories.length ===0 which  will return no record if true .....etc.<br>
-  5- For the logic of the pagination i use 2 buttons next and prev , each time we click the button the apiurl reset and the we recall the function fetchRepositories() .i also add cases for pagination so if im in page 1 prev btn will be disapair and if there is no repository in the next page the next button wont be displayed .<br> 
+  5- For the logic of the pagination i use 2 buttons next and prev , each time we click the button the apiurl reset and then we recall the function fetchRepositories() .i also add cases for pagination so if im in page 1 prev btn will be disapair and if there is no repository in the next page the next button wont be displayed .<br> 
   6- For the search button i also use the same logic as pagination when i click search i send the input value to the function to take it and reset the apiUrl and finally as expected recalling the fetchRepositories() again with the new api .<br>
 
 <h2> What I Learn From this Project :</h2>
