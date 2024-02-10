@@ -1,5 +1,5 @@
 <h1 align="center"> GitFetchHub: </h1> <br>
-<div align="center"><img width=300 src="https://wallpaperaccess.com/full/3415007.jpg"></img></div>
+<div align="center"><img height=300 src="https://wallpaperaccess.com/full/3415007.jpg"></img></div>
 <h2> Description :</h2>
    
   In this project i consume an api using api.github.com to build a simple project where at the main page (home)  repositories are showed in order of stars . <br>
