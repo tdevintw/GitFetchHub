@@ -14,7 +14,10 @@ function fetchRepositories() {
         .then(res => {
             //if request wassn't accepted by the server 
             if (!res.ok) {
-                throw new Error("Can't fetch data for the moment");
+
+                mainContainer.innerHTML = `<div class="text-center"><h2>Can't Fetch any  Repository For The Moment , Try Again Later</h2>
+                </div>;`
+
             } else {
                 //if the server is accepted
                 return res.json();
@@ -192,7 +195,7 @@ function nextBtn(){
             //establish data cases
             const nextRepositories = Nextdata.items;
             //in case that the server returns no data for the next page no need to next button 
-            if (nextRepositories.length === 0) {
+            if (nextRepositories.length === 0 ) {
              next.style.display = "none";
             } else{
             //if the next page have exist data
