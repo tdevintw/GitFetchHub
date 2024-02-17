@@ -55,9 +55,10 @@ function fetchRepositories() {
                             <h2 class="repo-title">${repo.name}</h2>
                             <p class="description">${repo.description}</p>
                             <div class="repo-infos">
+                            <div class="statistics">
                             <button class="stars bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">stars:${repo.stargazers_count}</button>
                             <button class="issues bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">issues:${repo.open_issues_count}</button>
-                            
+                            </div> 
                                 <p class="submitted">Created At : ${created_at} by ${repo.owner.login}</p>
                             </div>
                         </div>
@@ -202,4 +203,3 @@ function nextBtn(){
             next.style.display = "inline-block";
             }})
         };
-

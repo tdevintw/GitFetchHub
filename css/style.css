@@ -1,51 +1,100 @@
-.repo-div{
-    padding-left: 50px;
+.repo-content p {
+  width: 80%;
+}
+.repo-div {
+  padding-left: 50px;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.repo_img img {
+  height: 128px;
+  width: 128px;
+}
+main {
+  margin-top: 50px;
+}
+.repo-content {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.repo-content h2 {
+  font-weight: bold;
+  size: 65px;
+}
+.repo-infos {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search form {
+  width: 50%;
+}
+.search {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.pagination button {
+  width: 100px;
+}
+main button {
+  width: 170px;
+}
+.error-div h2 {
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+}
+.repo-infos .statistics {
+  display: flex;
+  gap: 7px;
+}
+footer div{
     display: flex;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.repo_img img{
-    height: 128px;
-    width: 128px;
-}
-main{
-    margin-top: 50px;
-}
-.repo-content{
-    margin-left: 30px;
-    display: flex;
-    flex-direction:column;
-    gap:10px;
-}
-.repo-content h2{
-    font-weight: bold;
-    size: 65px;
-}
-.repo-infos{
-    display: flex;
-    gap: 10px;
+    justify-content: space-between;
     align-items: center;
 }
-.search form{
-width: 50%;
-}
-.search{
-    margin-top: 35px;
-    display: flex;
-    justify-content: center;
-}
-.pagination{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.pagination button{
-    width: 100px;
-}
-main button{
-    width: 170px;
+@media only screen and (max-width: 703px) {
+  .repo-infos p {
+    font-size: 10px;
+  }
+  .repo_img img {
+    height: 80px;
+    width: 80px;
+  }
+  main button {
+    width: 90px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .repo-content p {
+    width: 100%;
+    height: auto;
+  }
+  .repo-div {
+    padding-left: 20px;
+  }
+
+  .search form {
+    width: 90%;
+  }
+  .repo-infos {
+    flex-direction: column;
+    align-items: flex-start;
 }
 .error-div h2{
-    font-size: 60px;
-    color: red;
-    font-weight: bold;
+    font-size: 20px;
+}
+}
+@media only screen and (max-width:500px) {
+    footer a , footer span {
+        font-size: 10px;
+    }
 }
